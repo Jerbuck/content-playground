@@ -2,7 +2,7 @@
 
 ![example workflow](https://github.com/Jerbuck/content-playground/actions/workflows/python-app.yml/badge.svg)
 
-This repository provides a playground for consuming json, yaml, and xml content in Python and was build for DEVNET Associate and Professional studies.
+This repository provides a playground for consuming json, yaml, and xml content in Python and was built for DEVNET Associate and Professional studies.
 
 The following items can be observed:
 
