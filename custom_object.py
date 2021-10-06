@@ -17,7 +17,7 @@ class CustomObject(object):
     def print(self):
         """Print the contents of the custom object."""
         print(f"\n--> Username: {self.username}")
-        print(f"--> Password: {self.base_url}")
+        print(f"--> Password: {self.password}")
         print(f"--> Base URL: {self.base_url}")
         print(f"--> Objects: {self.objects}\n")
 
@@ -32,11 +32,11 @@ class CustomObject(object):
                 (self.password == None) or \
                 (self.base_url == None) or \
                 (self.objects == []):
+                print(f"\nERROR: Load called with null data.")
                 sys.Exit()
         except:
             print(f"\nERROR: Unable to parse data into custom object.")
             sys.exit()
-
 
 if __name__ == '__main__':
     custom_object = CustomObject()

@@ -16,11 +16,10 @@ class XmlReader(BaseReader):
         try:
             with open(file_path, "r") as file:
                 xml_contents = file.read()
-                self.data = xmltodict.parse(xml_contents)['content']
+                self.data = xmltodict.parse(xml_contents)['content'] #Objects data format needs work
         except:
             print(f"\nERROR: Invalid XML format.")
             sys.exit()
-            
 
 if __name__ == '__main__':
     reader = XmlReader("sample.xml")

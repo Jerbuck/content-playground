@@ -20,7 +20,6 @@ class YamlReader(BaseReader):
             print(f"\nERROR: Invalid YAML format.")
             sys.exit()
 
-
 if __name__ == '__main__':
     reader = YamlReader("sample.yml")
     custom_object = CustomObject()
