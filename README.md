@@ -6,7 +6,7 @@ This repository provides a playground for consuming json, yaml, and xml content 
 
 The following items can be observed:
 
-* Parsing Json to a python object
+* Parsing JSON to a python object
 * Parsing XML to a python object (xmltodict)
 * Parsing YAML to a python object (pyyaml)
 * Object oriented program design
