@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<content>
+   <username>fake-username</username>
+   <password>fake-password</password>
+   <base-url>https://www.fake-url.com</base-url>
+   <objects>
+        <object>thing-one</object>
+    </objects>
+    <objects>
+        <object>thing-two</object>
+    </objects>
+    <objects>
+        <object>thing-three</object>
+    </objects>
+</content>
