@@ -30,7 +30,8 @@ class Test_YamlReader(unittest.TestCase):
         self.assertEqual(custom_object.username, "fake-username")    
         self.assertEqual(custom_object.password, "fake-password")  
         self.assertEqual(custom_object.base_url, "https://www.fake-url.com")
-        self.assertEqual(len(custom_object.objects), 3)
+        self.assertEqual(len(custom_object.objects), 4)
+        
 
 if __name__ == '__main__':
     unittest.main()
