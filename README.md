@@ -10,6 +10,7 @@ The following items can be observed:
 * Parsing XML to a python object (xmltodict)
 * Parsing YAML to a python object (pyyaml)
 * Object oriented program design
+* Simple inheritence model (base_reader)
 * Unit testing with unittest
 * Github CI test running
 * Github workflow badge

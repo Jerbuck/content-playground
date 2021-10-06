@@ -10,7 +10,7 @@ from readers.base_reader import BaseReader
 from custom_object import CustomObject
 
 class XmlReader(BaseReader):
-    """Class to parse a xml file given the file path."""
+    """Class to parse a XML file given the file path."""
 
     def __init__(self, file_path):
         try:

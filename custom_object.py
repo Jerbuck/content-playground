@@ -6,7 +6,7 @@ base_url = None
 objects = []
 
 class CustomObject(object):
-    """Data class for custom object"""
+    """Data class for custom object."""
 
     def __init__(self):
         self.username = None

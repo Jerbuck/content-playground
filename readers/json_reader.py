@@ -10,7 +10,7 @@ from readers.base_reader import BaseReader
 from custom_object import CustomObject
 
 class JsonReader(BaseReader):
-    """Class to parse a json file given the file path."""
+    """Class to parse a JSON file given the file path."""
 
     def __init__(self, file_path):
         try:

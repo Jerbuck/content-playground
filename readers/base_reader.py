@@ -2,6 +2,7 @@ file_path = None
 data = None
 
 class BaseReader(object):
+    """Base reader class for contents."""
 
     def __init__(self, file_path):
         self.file_path = file_path
