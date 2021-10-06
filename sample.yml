@@ -1,7 +1,7 @@
 # Sample YAML file
 username: fake-username
 password: fake-password
-base-url: https://www.fake-url.com
+base-url: 'https://www.fake-url.com'
 objects:
   - object: thing-one
   - object: thing-two
